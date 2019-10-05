@@ -1932,13 +1932,16 @@ class Dot(Graph):
         if process.returncode != 0:
             message = (
                 '"{prog}" with args {arguments} returned code: {code}\n\n'
-                'stdout, stderr:\n {out}\n{err}\n'
+                'stdout from "{prog}":\n{out}\n\n'
+                'stderr from "{prog}":\n{err}\n\n'
+                'DOT string sent to "{prog}":\n{dotstring}\n\n'
             ).format(
                 prog=prog,
                 arguments=arguments,
                 code=process.returncode,
                 out=stdout_data,
                 err=stderr_data,
+                dotstring=self.to_string(),
             )
             print(message)
 
