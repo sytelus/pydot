@@ -548,8 +548,13 @@ def parse_dot_data(s):
         tokens = graphparser.parseString(s)
         return list(tokens)
     except ParseException as err:
-        print(
-            err.line +
-            " "*(err.column-1) + "^" +
-            err)
+        if PY3 and (hasattr(ParseException, 'explain') and
+                    callable(getattr(ParseException, 'explain'))):
+            print(ParseException.explain(err))
+        else:
+            print(
+                err.line + "\n" +
+                " "*(err.column-1) + "^\n" +
+                str(err)
+                )
         return None
