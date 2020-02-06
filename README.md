@@ -1,9 +1,7 @@
-[![Build Status](https://www.travis-ci.com/pydot/pydot.svg?branch=master)](https://www.travis-ci.com/pydot/pydot)
-[![PyPI](https://img.shields.io/pypi/v/pydot.svg)](https://pypi.org/project/pydot/)
-
-
 About
 =====
+
+**This is fork of original pydot (https://github.com/pydot/pydot) project which unfortunately has gone dead since late 2018. This fork simply merged all open PRs. The original pydot doesn't work on Windows 10 anymore with Python 3.7+. One of this PR solves this issue as well.**
 
 `pydot`:
 
