@@ -1,7 +1,7 @@
 About
 =====
 
-**This is fork of original pydot (https://github.com/pydot/pydot) project which unfortunately has gone dead since late 2018. This fork simply merged all open PRs. The original pydot doesn't work on Windows 10 anymore with Python 3.7+. One of this PR solves this issue as well.**
+**This is fork of original pydot (https://github.com/pydot/pydot) project which unfortunately has gone dead since late 2018. This fork simply merges all open PRs. The original pydot doesn't work on Windows 10 anymore with Python 3.7+. One of this PR solves this issue as well.**
 
 `pydot`:
 
