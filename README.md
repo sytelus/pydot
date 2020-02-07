@@ -19,11 +19,17 @@ Installation
 
 From [PyPI][4] using [`pip`][5]:
 
-`pip install pydot`
+```
+pip install git+https://github.com/sytelus/pydot@v1.5.0#egg=pydot
+```
 
 From source:
 
-`python setup.py install`
+```
+pip install -e .
+```
+
+Note: If you had installed original pydot then first uninstall it using `pip uninstall pydot`.
 
 
 Dependencies
@@ -35,7 +41,7 @@ Dependencies
 - GraphViz: used to render graphs as PDF, PNG, SVG, etc.
   Should be installed separately, using your system's
   [package manager][7], something similar (e.g., [MacPorts][8]),
-  or from [its source][9].
+  or from [its source][9] or see [official binary downloads](https://www.graphviz.org/download/).
 
 
 License
