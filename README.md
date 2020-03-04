@@ -20,7 +20,12 @@ Installation
 From [PyPI][4] using [`pip`][5]:
 
 ```
-pip install git+https://github.com/sytelus/pydot@v1.5.0#egg=pydot
+pip install pydotz
+```
+
+From GitHub:
+```
+pip install git+https://github.com/sytelus/pydotz@v1.5.1#egg=pydotz
 ```
 
 From source:
@@ -28,8 +33,6 @@ From source:
 ```
 pip install -e .
 ```
-
-Note: If you had installed original pydot then first uninstall it using `pip uninstall pydot`.
 
 
 Dependencies
