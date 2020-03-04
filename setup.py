@@ -30,16 +30,16 @@ def get_version():
 
 
 setup(
-    name='pydot',
+    name='pydotz',
     version=get_version(),
-    description="Python interface to Graphviz's Dot",
+    description="Python interface to Graphviz's Dot (updated fork of pydot)",
     author='Ero Carrera',
     author_email='ero@dkbza.org',
-    maintainer='Sebastian Kalinowski',
-    maintainer_email='sebastian@kalinowski.eu',
-    url='https://github.com/pydot/pydot',
+    maintainer='Shital Shah',
+    maintainer_email='sytelus@gmail.com',
+    url='https://github.com/sytelus/pydotz',
     license='MIT',
-    keywords='graphviz dot graphs visualization',
+    keywords='graphviz dot graphs visualization pydot',
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
