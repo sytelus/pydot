@@ -34,6 +34,15 @@ From source:
 pip install -e .
 ```
 
+Please note that module name to use in the code is still pydot. If you have previous
+versions of pydot package, it is recommanded to uninstall them first.
+
+Checking installation:
+```
+python -c "import pydot;print(pydot.__version__)"
+```
+This should print 1.5.1 or higher version.
+
 
 Dependencies
 ============
